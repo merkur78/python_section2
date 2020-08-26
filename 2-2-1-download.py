@@ -10,7 +10,7 @@ htmlURL ="http://google.com"
 
 savePath1 ="c:/test1.jpg"
 savePath2 ="c:/index.html"
-
+print(savePath1)
 dw.urlretrieve(imgUrl, savePath1)
 dw.urlretrieve(htmlURL, savePath2)
 
